@@ -28,7 +28,7 @@ csvfilepath = 'src/tabel7.csv'
 #csvfile = open('src/tabel7.csv', 'r')
 reader = pd.read_csv(csvfilepath,encoding = 'UTF-8')
 data_json = json.loads(reader.to_json(orient='records'))
-
+print(data_json[1])
 collection.insert(data_json)
 
 
