@@ -1,4 +1,4 @@
-Sorterings ID,Data type,Navn DE/ENG,Navn DK,"Global Opvarmning, modul A1-A3","Global Opvarmning, modul C3","Global Opvarmning, modul C4","Global Opvarmning, modul D",Deklareret faktor (FU),Deklareret enhed (FU),Masse faktor,Url (link),Kommentar
+Sorterings_ID,Data_type,Navn_DE/ENG,Navn_DK,"Global_Opvarmning,_modul_A1-A3","Global_Opvarmning,_modul_C3","Global_Opvarmning,
 #B1318,Branche data,,"Krydslamineret træ, CLT (Forbrænding EoL)",-664,744,0,-387,1,M3,470,https://www.epddanmark.dk/media/tmwhxyym/md-20007-en_rev1_tr%c3%a6dk.pdf,
 #B1325,Branche data,,"Konstruktionstræ af nåletræ, Høvlet (Forbrænding EoL)",-652,709,0,-425,1,M3,536,https://www.epddanmark.dk/media/4p1frhby/md-20003-en-tr%c3%a6-dk-c-o-tr%c3%a6-og-m%c3%b8belindustrien.pdf,
 #B1332,Branche data,,"Konstruktionstræ af nåletræ, utørret og opsavet (Forbrænding EoL)",-664,709,0,-425,1,M3,644,https://www.epddanmark.dk/media/oxujrihc/md-20001-en-tr%c3%a6-dk-c-o-tr%c3%a6-og-m%c3%b8belindustrien.pdf,
