@@ -25,7 +25,9 @@ db = mongoClient['material-library']
 db.command('ping')
 collection = db['epds']
 csvfilepath = 'src/tabel7.csv'
-#csvfile = open('src/tabel7.csv', 'r')
+lcabygidfilepath = 'src/lcabyg_tabel7_map.json'
+#LOAD JSON
+#USE JSON IDS TO SETUP lcabyguuid
 reader = pd.read_csv(csvfilepath,encoding = 'UTF-8')
 data_json = json.loads(reader.to_json(orient='records'))
 print(data_json[1])
@@ -45,7 +47,9 @@ for row in data_json:
             'D':row['D'],
             'unit':row['Unit'],
             'mass':row['Mass'],
-            'url':row['Url']
+            'url':row['Url'],
+            'table7id':row['epdid'],
+            'lcabyguuid':''
         }
         jsondata.append(rowjson)
         collection.insert(rowjson)
